@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+  justify-content: center;
+}
+
+#root{
+  box-shadow: darkslategrey;
+		justify-content: center;
+  display: inline-block;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: darkslategray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2%;
+  margin: auto;
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(74, 68, 68, 0.1);
+}
+
+.card:hover {
+  background-color: lightcyan; 
+}
+
+h1 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: blueviolet;
+}
+
+.tick-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.tick-text {
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.verify {
+  display: inline-block;
+  margin-left: 5px;
+  row-gap: 50px;
+}
+
+.btn-primary {
+  background-color: rgb(39, 75, 102);
+  color: white;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+
+.btn-primary:hover {
+  background-color: rgb(15, 35, 155); 
+}
+}
